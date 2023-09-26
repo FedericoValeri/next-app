@@ -17,5 +17,11 @@
 
 body {
   color: rgb(var(--foreground-rgb));
-  padding: 1rem;
+}
+
+/* Override base layer */
+@layer base {
+  h1 {
+    @apply font-extrabold text-2xl mb-3;
+  }
 }
